@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SMS.Views.StudentPage" Title="Student">
+  <ScrollView>
+    <StackLayout VerticalOptions="StartAndExpand">
+      <Label Text="Student Id" />
+      <Label x:Name="studentIdLbl" />
+      <Label Text="First name" />
+      <Entry x:Name="firstNameEntry" />
+      <Label Text="Last name" />
+      <Entry x:Name="lastNameEntry" />
+      <Label Text="DOB" />
+      <Entry x:Name="DOBEntry" />
+      <Label Text="Country" />
+      <Entry x:Name="countryEntry" />
+      <Label Text="Phone" />
+      <Entry x:Name="phoneEntry" />
+      <Label Text="Email" />
+      <Entry x:Name="emailEntry" />
+      <Button Text="Update" Clicked="OnUpdateClicked" />
+      <Button Text="View Subjects" Clicked="OnViewSubjectsClicked" />
+      <Button x:Name="enrollBtn" Text="Enroll Subjects" Clicked="OnEnrollSubjectsClicked" />
+      <Button x:Name="contactBtn" Text="Contact student" Clicked="OnContactClicked" />
+      <Label x:Name="messageLbl" />
+    </StackLayout>    
+  </ScrollView>
+</ContentPage>

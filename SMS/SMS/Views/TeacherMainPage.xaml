@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SMS.Views.TeacherMainPage" Title="Teacher page">
+  <ContentPage.Content>
+    <StackLayout>
+      <StackLayout  VerticalOptions="StartAndExpand">
+        <Button Text="View students" Clicked="OnViewStudentsClicked" />
+        <Button Text="View subjects" Clicked="OnViewSubjectsClicked" />
+      </StackLayout>
+      <StackLayout  VerticalOptions="EndAndExpand">
+        <Button Text="Logout" Clicked="OnLogoutClicked"/>
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

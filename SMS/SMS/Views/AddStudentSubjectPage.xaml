@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SMS.Views.AddStudentSubjectPage">
+
+  <StackLayout VerticalOptions="StartAndExpand">
+    <Label Text="First name" />
+    <Label x:Name="firstNameLbl" />
+    <Label Text="Last name" />
+    <Label x:Name="lastNameLbl" />
+    <Label Text="Subject" />
+    <Picker x:Name="subjectsPicker"/>
+    <Button Text="Add" Clicked="OnAddClicked" />
+    <Label x:Name="messageLbl" />
+  </StackLayout>
+</ContentPage>

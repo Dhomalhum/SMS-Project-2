@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SMS.Views.ContactStudentPage">
+  <StackLayout VerticalOptions="StartAndExpand">
+    <Label Text="Student Id" />
+    <Label x:Name="studentIdLbl" />
+    <Label Text="First name" />
+    <Label x:Name="firstNameLbl" />
+    <Label Text="Last name" />
+    <Label x:Name="lastNameLbl" />
+    <Label Text="Phone" />
+    <Label x:Name="phoneLbl" />
+    <Label Text="Email" />
+    <Label x:Name="emailLbl" />
+    <Editor x:Name="contentEditor" />
+    <Button x:Name="smsBtn" Text="SMS" Clicked="OnSMSClicked" />
+    <Button x:Name="emailBtn" Text="Email" Clicked="OnEmailClicked" />
+    <Label x:Name="messageLbl" />
+  </StackLayout>
+</ContentPage>
